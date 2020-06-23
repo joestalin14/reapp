@@ -1,0 +1,11 @@
+<NumericDataFilters
+  onNumericDataChange={this.props.onNumericDataChange}
+  history={this.props.history}
+  selectedCategory={this.state.selectedCategory}
+  minValue={this.state.minPriceValue}
+  maxValue={this.state.maxPriceValue}
+  onMinValueChange={(value) => this.setState({ minPriceValue: value })}
+  onMaxValueChange={(value) => this.setState({ maxPriceValue: value })}
+  strMin={'min'}
+  strMax={'max'}
+/>

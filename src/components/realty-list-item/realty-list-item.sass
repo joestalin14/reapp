@@ -1,0 +1,53 @@
+.realty-list-item
+  display: flex
+  background-color: #fff
+  box-shadow: 0 0 15px rgba(#000, .3)
+  .realty-cover
+    flex-shrink: 0
+    width: 35%
+    margin-right: 30px
+    max-height: 232px
+    overflow: hidden
+    img
+      max-width: 110%
+      min-height: 232px
+  .realty-details
+    padding: 10px 0
+    h5
+      font-weight: 600
+    .price
+      font-size: 1.4rem
+    .btn
+      float: left
+      display: inline
+      margin-right: 10px
+@media (max-width: 991px)
+  .realty-list-item
+    .realty-cover
+      width: 45%
+      margin-right: 15px
+    .realty-details
+      h5
+        font-size: 1rem
+      p
+        font-size: .9rem
+      .btn
+        font-size: .8rem
+@media (max-width: 469px)
+  .realty-list-item
+    display: block
+    .realty-cover
+      width: 100%
+      margin-right: 0
+      max-height: 270px
+      position: relative
+      img
+        min-height: 270px
+        max-width: 100%
+    .realty-details
+      display: block
+      padding: 15px
+      p
+        margin-bottom: 5px
+      .btn
+        float: none

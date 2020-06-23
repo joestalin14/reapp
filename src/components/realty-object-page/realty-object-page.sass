@@ -1,0 +1,87 @@
+.realty-object-page
+  padding-top: 80px
+  h1
+    margin-bottom: 25px
+  .carousel.carousel-slider
+    .slider-wrapper
+      ul.slider
+        .slide
+          background: transparent
+          div
+            background-color: #fff
+            img
+              max-height: 400px
+              width: auto
+    .control-arrow
+      opacity: .8
+    .control-arrow.control-next
+      &:hover
+        background: transparent
+      &::before
+        border-left: 8px solid #E99002
+    .control-arrow.control-prev
+      &:hover
+        background: transparent
+      &::before
+        border-right: 8px solid #E99002
+    .carousel-status
+      color: #E99002
+      text-shadow: none
+    .control-dots
+      padding-left: 0
+      .dot
+        background: #E99002
+        opacity: .6
+        width: 10px
+        height: 10px
+        &:hover
+          opacity: 1
+      .dot.selected
+        opacity: 1
+.description
+  text-align: right
+  .address
+    font-weight: 600
+    font-size: 1.1rem
+  .condition-description
+    margin-bottom: 1rem
+    p
+      margin-bottom: 3px
+  .price
+    font-size: 1.8rem
+    margin-bottom: 3px
+    margin-top: 15px
+  .price-meter
+    font-style: italic
+    font-size: 1.2rem
+.text-description
+  margin: 35px 0
+  font-size: 1rem
+.yandex-map
+  margin-bottom: 50px
+@media (max-width: 991px)
+  .realty-object-page
+    .description
+      p
+        margin-bottom: 5px
+      .address
+        font-size: .9rem
+        line-height: 1.2
+        margin-bottom: 5px
+      .price
+        font-size: 1.2rem
+        font-weight: 600
+      .price-meter
+        font-size: 1rem
+      .condition-description
+        margin-bottom: 5px
+      .btn-group
+        .btn
+          font-size: .8rem
+    .carousel.carousel-slider
+      .slider-wrapper
+        ul.slider
+          .slide
+            div
+              img
+                max-height: 320px
